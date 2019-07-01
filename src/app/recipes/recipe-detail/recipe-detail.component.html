@@ -25,21 +25,38 @@
         Manage Recipe
       </button>
       <ul appDropdown class="dropdown-menu" [ngClass]="{'show': appDropdownRef.isDropdownOpen}">
-        <li><a class="dropdown-item" href="#">To shopping list</a></li>
-        <li><a class="dropdown-item" href="#">Edit Recipe</a></li>
-        <li><a class="dropdown-item" href="#">Delete Recipe</a></li>
+        <li>
+          <a 
+            class="dropdown-item" 
+            href="#"
+            (click)="onAddToShoppingList()"
+          >To shopping list</a>
+        </li>
+        <li>
+          <a class="dropdown-item" href="#">Edit Recipe</a>
+        </li>
+        <li>
+          <a class="dropdown-item" href="#">Delete Recipe</a>
+        </li>
       </ul>
     </div>
   </div>
 </div>
 
-<div class="row">
+<div class="row mt-3">
   <div class="col-sm-12">
     {{ recipeDetail.description }}
   </div>
 </div>
-<div class="row">
+<div class="row mt-3">
   <div class="col-sm-12">
-    Ingredients
+    <ul class="list-group">
+      <li
+        class="list-group-item"
+        *ngFor="let ingredient of recipeDetail.ingredients"
+      >
+        {{ ingredient.name }} - {{ ingredient.amount }}
+      </li>
+    </ul>
   </div>
 </div>
