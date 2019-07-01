@@ -14,7 +14,8 @@ export class RecipeService {
       [
         new Ingredient('penne', 200),
         new Ingredient('veggie', 10)
-      ]
+      ],
+      false
     ),
     new Recipe(
       'Ice coffee',
@@ -23,7 +24,8 @@ export class RecipeService {
       [
         new Ingredient('instant coffee', 1),
         new Ingredient('ice cube', 10),
-      ]
+      ],
+      false
     )
   ];
 

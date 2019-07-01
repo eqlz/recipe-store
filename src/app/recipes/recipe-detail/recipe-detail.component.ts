@@ -17,8 +17,13 @@ export class RecipeDetailComponent implements OnInit {
   }
 
   onAddToShoppingList() {
-    this.shoppingListService.addIngredients(this.recipeDetail.ingredients);
-    this.shoppingListService.ingredientAdded.emit(this.shoppingListService.ingredients);
+    if (!this.recipeDetail.haveAddedToShoppingList) {
+      this.shoppingListService.addIngredients(this.recipeDetail.ingredients);
+      this.shoppingListService.ingredientAdded.emit(this.shoppingListService.ingredients);
+      this.recipeDetail.haveAddedToShoppingList = true;
+    } else {
+      alert('Ingredients are already in the shopping list!');
+    }
   }
 
 }
