@@ -1,4 +1,23 @@
-# RecipeStore
+# Recipe Store
+
+An Angular 6+ app that allows you to add and display recipes, add ingredients of a recipe to the shopping list.
+
+## Features
+Features added
+- Navigate and display recipe page and shopping list page by clicking nav bar menu
+- Click each recipe in recipe list, and the recipe detail will showcase to the left
+- Allow users to add ingredient in shopping list page
+
+Features to add
+- Navigate between recipe page and shopping list through Angular router
+- Implement functionality of New Recipe button
+- Implement functionality of Manage button in recipe detail
+- Implement functionality of Delete, Clear button in shopping list
+- Implement functionality of Manage button in nav bar menu
+
+## Screenshots
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
 
