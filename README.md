@@ -16,7 +16,14 @@ Features to add
 - Implement functionality of Manage button in nav bar menu
 
 ## Screenshots
+Recipe page
+![Image of Recipe page](https://github.com/eqlz/recipe-store/blob/master/static-assets/recipe-page.png?raw=true)
 
+Recipe detail
+![Image of Recipe detail](https://github.com/eqlz/recipe-store/blob/master/static-assets/recipe-detail.png?raw=true)
+
+Shopping list page
+![Image of shopping list page](https://github.com/eqlz/recipe-store/blob/master/static-assets/shopping-list-page.png?raw=true)
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
