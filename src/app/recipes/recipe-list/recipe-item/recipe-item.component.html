@@ -1,10 +1,8 @@
-<!-- <a style="cursor: pointer"
-  class="list-group-item clearfix mb-2"
-  (click)="onSelectRecipe()"
-> -->
+
 <a style="cursor: pointer"
   class="list-group-item clearfix mb-2"
   [routerLink]="[index]"
+  routerLinkActive="active"
 >
   <div class="float-left">
     <h4 class="list-group-item-heading">{{ recipe.name }}</h4>
