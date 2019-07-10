@@ -7,9 +7,10 @@ Features added
 - Navigate and display recipe page and shopping list page by clicking nav bar menu
 - Click each recipe in recipe list, and the recipe detail will showcase to the left
 - Allow users to add ingredient in shopping list page
+- Navigate between recipe page and shopping list through Angular router (added on Jul 9, 2019)
 
 Features to add
-- Navigate between recipe page and shopping list through Angular router
+- ~~Navigate between recipe page and shopping list through Angular router~~
 - Implement functionality of New Recipe button
 - Implement functionality of Manage button in recipe detail
 - Implement functionality of Delete, Clear button in shopping list
