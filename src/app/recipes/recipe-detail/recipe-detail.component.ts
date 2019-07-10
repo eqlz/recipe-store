@@ -2,7 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Recipe } from '../recipe.model';
 import { ShoppingListService } from 'src/app/shopping-list/shopping-list.service';
 import { Ingredient } from 'src/app/shared/ingredient.model';
-import { ActivatedRoute, Params } from '@angular/router';
+import { ActivatedRoute, Params, Router } from '@angular/router';
 import { RecipeService } from '../recipe.service';
 
 @Component({
@@ -14,7 +14,11 @@ export class RecipeDetailComponent implements OnInit {
   recipeDetail: Recipe;
   id: number;
 
-  constructor(private shoppingListService: ShoppingListService, private recipesService: RecipeService, private route: ActivatedRoute) { }
+  constructor(
+    private shoppingListService: ShoppingListService,
+    private recipesService: RecipeService,
+    private route: ActivatedRoute,
+    private router: Router) { }
 
   ngOnInit() {
     this.route.params
@@ -33,6 +37,10 @@ export class RecipeDetailComponent implements OnInit {
     } else {
       alert('Ingredients are already in the shopping list!');
     }
+  }
+
+  onEditRecipe() {
+    this.router.navigate(['edit'], { relativeTo: this.route });
   }
 
 }
