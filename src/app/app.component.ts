@@ -7,13 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'recipe-store';
-  showRecipe: boolean = true;
-
-  onShowRecipe(event) {
-    this.showRecipe = event.isRecipeShown;
-  }
-
-  onShowShoppingList(event) {
-    this.showRecipe = event.isRecipeShown;
-  }
 }
