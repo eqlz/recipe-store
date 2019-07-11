@@ -22,7 +22,7 @@ export class ShoppingEditComponent implements OnInit {
     const newIngredient: Ingredient = new Ingredient(ingredientName, ingredientAmount);
     this.shoppingListService.addIngredient(newIngredient);
 
-    this.shoppingListService.ingredientAdded.emit(
+    this.shoppingListService.ingredientAdded.next(
       this.shoppingListService.getIngredients()
     );
   }
