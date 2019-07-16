@@ -21,10 +21,13 @@ Recipe page
 ![Image of Recipe page](https://github.com/eqlz/recipe-store/blob/master/static-assets/recipe-page.png?raw=true)
 
 Recipe detail
-![Image of Recipe detail](https://github.com/eqlz/recipe-store/blob/master/static-assets/recipe-detail.png?raw=true)
+![Image of Recipe detail](https://github.com/eqlz/recipe-store/blob/master/static-assets/select-recipe-show-detail.png?raw=true)
+
+Add recipe ingredients to shopping list
+![Image of adding recipe ingredients to shopping list](https://github.com/eqlz/recipe-store/blob/master/static-assets/add-recipe-ingredient-shopping-list.png?raw=true)
 
 Shopping list page
-![Image of shopping list page](https://github.com/eqlz/recipe-store/blob/master/static-assets/shopping-list-page.png?raw=true)
+![Image of shopping list page](https://github.com/eqlz/recipe-store/blob/master/static-assets/add-ingredient.png?raw=true)
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
