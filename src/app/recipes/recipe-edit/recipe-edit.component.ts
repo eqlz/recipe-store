@@ -40,6 +40,12 @@ export class RecipeEditComponent implements OnInit {
       false,
     );
 
+    if (this.editMode) {
+      this.recipeService.updateRecipe(this.id, newRecipe);
+    } else {
+      this.recipeService.addRecipe(newRecipe);
+    }
+
     this.onCancel();
   }
 
