@@ -37,8 +37,20 @@
           >
             {{ editMode ? 'Update' : 'Add' }}
           </button>
-          <button class="btn btn-outline-danger mr-2" type="button">Delete</button>
-          <button class="btn btn-outline-primary mr-2" type="button">Clear</button>
+          <button 
+            class="btn btn-outline-danger mr-2" 
+            type="button"
+            (click)="onDelete()"
+          >
+            Delete
+          </button>
+          <button 
+            class="btn btn-outline-primary mr-2" 
+            type="button"
+            (click)="onClear()"
+          >
+            Clear
+          </button>
         </div>
       </div>
     </form>
