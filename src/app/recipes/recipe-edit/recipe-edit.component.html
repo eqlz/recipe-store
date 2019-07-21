@@ -8,7 +8,11 @@
             class="btn btn-outline-primary mr-2"
             [disabled]="!recipeForm.valid"
           >Save</button>
-          <button type="button" class="btn btn-outline-danger mr-2">Cancel</button>
+          <button 
+            type="button" 
+            class="btn btn-outline-danger mr-2"
+            (click)="onCancel()"
+          >Cancel</button>
         </div>
       </div>
 
