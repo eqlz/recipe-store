@@ -10,6 +10,7 @@
             class="form-control"
             ngModel
             name="ingredientName"
+            required
           >
         </div>
 
@@ -21,13 +22,14 @@
             class="form-control"
             ngModel
             name="ingredientAmount"
+            required
           >
         </div>
       </div>
 
       <div class="row">
         <div class="col-sm-12">
-          <button class="btn btn-outline-success mr-2" type="submit">Add</button>
+          <button class="btn btn-outline-success mr-2" type="submit" [disabled]="!formRef.valid">Add</button>
           <button class="btn btn-outline-danger mr-2" type="button">Delete</button>
           <button class="btn btn-outline-primary mr-2" type="button">Clear</button>
         </div>
