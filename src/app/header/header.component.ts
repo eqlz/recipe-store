@@ -14,11 +14,11 @@ export class HeaderComponent implements OnInit {
   }
 
   onSaveData() {
-    this.dataStorageService.storeRecipe();
+    this.dataStorageService.storeRecipes();
   }
 
   onFetchData() {
-    this.dataStorageService.fetchRecipe();
+    this.dataStorageService.fetchRecipes().subscribe();
   }
 
 }
