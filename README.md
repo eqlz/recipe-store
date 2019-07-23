@@ -8,13 +8,17 @@ Features added
 - Click each recipe in recipe list, and the recipe detail will showcase to the left
 - Allow users to add ingredient in shopping list page
 - Navigate between recipe page and shopping list through Angular router (added on Jul 9, 2019)
+- Click New Recipe button to add new recipe (added on Jul 21, 2019)
+- Edit, delete recipe and add ingredients of recipe to shopping list (added on Jul 21, 2019)
+- Add/Update, Delete, Clear ingredients in shopping list (added on Jul 21, 2019)
+- Fetch and save recipes data to firebase (Logic is there but write and read to firebase are disabled) (added on Jul 21, 2019)
 
 Features to add
 - ~~Navigate between recipe page and shopping list through Angular router~~
-- Implement functionality of New Recipe button
-- Implement functionality of Manage button in recipe detail
-- Implement functionality of Delete, Clear button in shopping list
-- Implement functionality of Manage button in nav bar menu
+- ~~Implement functionality of New Recipe button~~
+- ~~Implement functionality of Manage button in recipe detail~~
+- ~~Implement functionality of Delete, Clear button in shopping list~~
+- ~~Implement functionality of Manage button in nav bar menu~~
 
 ## Screenshots
 Recipe page
