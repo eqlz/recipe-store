@@ -11,7 +11,7 @@ Features added
 - Click New Recipe button to add new recipe (added on Jul 21, 2019)
 - Edit, delete recipe and add ingredients of recipe to shopping list (added on Jul 21, 2019)
 - Add/Update, Delete, Clear ingredients in shopping list (added on Jul 21, 2019)
-- Fetch and save recipes data to firebase (Logic is there but write and read to firebase are disabled) (added on Jul 21, 2019)
+- Fetch and save recipes data to firebase (Logic is there but write and read to firebase are disabled as authorization has been implemented) (added on Jul 21, 2019)
 
 Features to add
 - ~~Navigate between recipe page and shopping list through Angular router~~
